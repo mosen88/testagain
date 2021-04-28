@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <AssemblyName>PalletConveyorCatalog</AssemblyName>
+    <RootNamespace>PalletConveyorCatalog</RootNamespace>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <LangVersion>latest</LangVersion>
+    <OutputPath>.\.build\bin\</OutputPath>
+    <BaseIntermediateOutputPath>.\.build\obj\</BaseIntermediateOutputPath>
+    <ProjectGuid>{59885021-4275-4218-8D69-3692450B94D6}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="PalletConveyorToolBox\OutboundSpeed.cs" />
+    <Compile Include="PalletGravityConveyor.cs" />
+    <Compile Include="PalletJackConveyor.cs" />
+    <Compile Include="PalletAirlockConveyor.cs" />
+    <Compile Include="PalletConveyorCatalog.cs" />
+    <Compile Include="PalletConveyorToolBox\LoadDimensions.cs" />
+    <Compile Include="PalletSlaveConveyor.cs" />
+    <Compile Include="PalletTransferTurnTable.cs" />
+    <Compile Include="PalletTurntable.cs" />
+    <Compile Include="PalletTransfer.cs" />
+    <Compile Include="PalletConveyor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Demo3D.AspectLibrary">
+      <Private>False</Private>
+      <ImplicitlyAdded>True</ImplicitlyAdded>
+    </Reference>
+    <Reference Include="Demo3D.Common">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Demo3D.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Demo3D.EventQueue">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Demo3D.IO">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Demo3D.Licensing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Demo3D.Raw">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Demo3D.Standard">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Demo3D.Xml">
+      <Private>False</Private>
+      <ImplicitlyAdded>True</ImplicitlyAdded>
+    </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="netstandard">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PLC">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PLC.CIPIO">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SmartEdit">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SoftPLC">
+      <Private>False</Private>
+      <ImplicitlyAdded>True</ImplicitlyAdded>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WindowsBase">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WindowsFormsIntegration">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WpfControls">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\Demo3D.targets" />
+</Project>

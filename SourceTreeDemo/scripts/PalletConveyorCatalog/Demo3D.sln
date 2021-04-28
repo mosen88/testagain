@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{59885021-4275-4218-8D69-3692450B94D6}") = "PalletConveyorCatalog", "PalletConveyorCatalog.csproj", "{59885021-4275-4218-8D69-3692450B94D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59885021-4275-4218-8D69-3692450B94D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59885021-4275-4218-8D69-3692450B94D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

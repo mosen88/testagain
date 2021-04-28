@@ -1,0 +1,22 @@
+{
+  "Key": {
+    "Key": "59885021-4275-4218-8d69-3692450b94d6",
+    "IsNull": false
+  },
+  "NativeSourcePaths": [
+    "PalletAirlockConveyor.cs",
+    "PalletConveyor.cs",
+    "PalletConveyorCatalog.cs",
+    "PalletConveyorCatalog.csproj",
+    "PalletConveyorToolBox\\LoadDimensions.cs",
+    "PalletConveyorToolBox\\OutboundSpeed.cs",
+    "PalletGravityConveyor.cs",
+    "PalletJackConveyor.cs",
+    "PalletSlaveConveyor.cs",
+    "PalletTransfer.cs",
+    "PalletTransferTurnTable.cs",
+    "PalletTurntable.cs"
+  ],
+  "Created": null,
+  "Modified": "2020-10-19T10:11:02Z"
+}
